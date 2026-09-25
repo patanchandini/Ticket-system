@@ -1,0 +1,5 @@
+order_issue:    [order.id, contact.email, evidence]
+product_defect: [product.sku, contact.email, evidence]
+billing:        [order.id, contact.email, evidence]
+account:        [customer.id, contact.email]
+default:        [customer.id, contact.email, evidence]

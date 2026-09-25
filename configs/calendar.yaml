@@ -1,0 +1,13 @@
+timezone: Asia/Kolkata
+weekends: [5, 6]          # Monday=0 ... Sunday=6
+holidays:
+  - "2025-01-26"
+  - "2025-03-14"
+  - "2025-08-15"
+business_hours:
+  start: "09:00"
+  end: "18:00"
+pause_states:
+  - AWAITING_INFO
+  - PENDING_TEAM_AVAILABILITY
+  - QUEUED_OFF_HOURS

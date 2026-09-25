@@ -1,0 +1,37 @@
+categories:
+  billing:        [billing, refunds]
+  delivery:       [logistics, tracking]
+  product_defect: [technical, rma]
+  account:        [account_mgmt]
+
+agents:
+  - id: A-01
+    name: Alice
+    skills: [billing, refunds]
+    timezone: Asia/Kolkata
+    shift: {start: "09:00", end: "18:00"}
+    wip_cap: 5
+  - id: A-02
+    name: Bob
+    skills: [billing, logistics]
+    timezone: Asia/Kolkata
+    shift: {start: "10:00", end: "19:00"}
+    wip_cap: 5
+  - id: A-03
+    name: Carol
+    skills: [technical, rma]
+    timezone: Asia/Kolkata
+    shift: {start: "09:00", end: "18:00"}
+    wip_cap: 5
+
+teams:
+  billing-tier1:   [A-01, A-02]
+  billing-tier2:   [A-01]
+  tech-tier1:      [A-03]
+  escalation:      [A-01, A-03]
+  on_call:         [A-02]
+
+backup:
+  billing:        [billing-tier1, billing-tier2, on_call]
+  product_defect: [tech-tier1, on_call]
+  delivery:       [billing-tier1, on_call]

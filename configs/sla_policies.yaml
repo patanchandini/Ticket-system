@@ -1,0 +1,13 @@
+version: v1
+# allowed_minutes per (priority, category); fallback = default per priority
+defaults:
+  P1: 60
+  P2: 240
+  P3: 480
+  P4: 1440
+overrides:
+  P1:
+    billing: 60
+    delivery: 120
+  P2:
+    billing: 240
