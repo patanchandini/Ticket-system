@@ -670,7 +670,7 @@ evaluation:
 | **Missing mandatory info** | Draft ticket in `AWAITING_INFO` + targeted question |
 | **Weekends / holidays** | Excluded from SLA clock |
 | **Warn @ 75%** | `SLA_WARNING` event + notify assignee and lead |
-| **Breach** | `SLA_BREACH` event + auto-escalate to P1 + reassign |
+| **Breach** | `SLA_BREACH` event + auto-escalate to P1 + reassign |![alt text](image.png)
 
 ---
 

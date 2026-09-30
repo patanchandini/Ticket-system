@@ -1,9 +1,12 @@
 __pycache__/
 *.py[cod]
+*.pyc
 .pytest_cache/
 .venv/
+venv/
 *.db
 *.sqlite3
+tickets.db
 .vscode/
 .idea/
 .DS_Store
