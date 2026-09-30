@@ -1,50 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# Virtual Environments
 .venv/
 venv/
-ENV/
-env/
-
-# PyTest
+__pycache__/
+*.py[cod]
+*.pyc
 .pytest_cache/
-.coverage
-.coverage.*
-.tox/
-
-# Database
 *.db
-*.sqlite
 *.sqlite3
-tickets.db
-
-# Environment / Secrets
-.env
-.env.local
-.env.*.local
-secrets.json
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Logs / Temp
-*.log
-logs/
-tmp/
-
-# Render
-.render/
