@@ -9,10 +9,20 @@ sentiment, waiting time, customer impact and SLA rules, routes tickets by agent
 skills / availability / workload / business hours, and enforces business-hours
 SLA rules with warnings at 75% and automatic escalation on breach.
 
-![Python](https://img.shields.io/badge/python-3.11-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green)
-![Tests](https://img.shields.io/badge/tests-5%20passed-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20API-brightgreen)](https://ticket-system-ie7h.onrender.com/docs)
+[![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/downloads/release/python-3119/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green)](https://fastapi.tiangolo.com/)
+[![Tests](https://img.shields.io/badge/tests-5%20passed-brightgreen)](tests/test_pipeline.py)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
+## 🌐 Live Demo
+
+**Swagger UI:** https://ticket-system-ie7h.onrender.com/docs  
+**API Base:** https://ticket-system-ie7h.onrender.com
+
+> ⚠️ Hosted on Render's free tier — the app sleeps after 15 minutes of
+> inactivity. The first request may take 30–60 seconds to wake up.
+
 
 ---
 
