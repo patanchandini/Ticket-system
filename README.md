@@ -596,7 +596,6 @@ A venv was moved to a different drive. Rebuild it:
 ```cmd
 deactivate
 rmdir /s /q .venv
-py -3.11 -m venv .venv
 .\.venv\Scripts\activate.bat
 python -m pip install -r requirements.txt --only-binary=:all:
 ```
